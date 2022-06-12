@@ -1,0 +1,23 @@
+spring:
+  cloud.stream:
+    bindings:
+      testEvent-in-0:
+        content-type: text/plain
+        destination: test-event
+        group: test-group
+      testEvent-out-0:
+        destination: test-event
+        group: test-group
+    kafka:
+      bindings:
+        testEvent-in-0:
+          consumer:
+            enableDlq: true
+            dlqName: dlt_test-event
+      binder:
+        brokers: localhost:9092
+  cloud:
+    stream:
+      function:
+        definition: testEvent
+
