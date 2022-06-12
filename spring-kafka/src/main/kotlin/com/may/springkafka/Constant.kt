@@ -1,4 +1,4 @@
-package com.may.kafkapractice
+package com.may.springkafka
 
 class Constant {
     companion object {

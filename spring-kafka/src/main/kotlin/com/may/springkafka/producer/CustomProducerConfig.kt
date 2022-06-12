@@ -1,6 +1,6 @@
-package com.may.kafkapractice.producer
+package com.may.springkafka.producer
 
-import com.may.kafkapractice.Constant
+import com.may.springkafka.Constant
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.common.serialization.StringSerializer
 import java.util.*

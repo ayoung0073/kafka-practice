@@ -1,6 +1,6 @@
-package com.may.kafkapractice.consumer
+package com.may.springkafka.consumer
 
-import com.may.kafkapractice.Constant
+import com.may.springkafka.Constant
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.common.serialization.StringDeserializer
 import java.util.*

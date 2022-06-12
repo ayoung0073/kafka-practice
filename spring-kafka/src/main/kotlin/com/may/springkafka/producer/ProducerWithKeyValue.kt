@@ -1,6 +1,6 @@
-package com.may.kafkapractice.producer
+package com.may.springkafka.producer
 
-import com.may.kafkapractice.Constant
+import com.may.springkafka.Constant
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerRecord
 import java.lang.Exception
